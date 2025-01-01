@@ -1,0 +1,35 @@
+[1m@storybook/core v8.4.7[22m[0m
+[0m
+[?25l[2K[1G[36m?[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m›[39m [90m(Y/n)[39m[2K[1G[2K[1G[32m✔[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m…[39m yes
+[?25h[38;2;241;97;97mSB_CORE-SERVER_0007 (MainFileEvaluationError): Storybook couldn't evaluate your [33m.storybook/main.js[39m file.
+
+Original error:
+[37mError: Your application tried to access storybook-addon-root-attributes, but it isn't declared in your dependencies; this makes the require call ambiguous and unsound.
+
+Required package: storybook-addon-root-attributes (via "storybook-addon-root-attributes/package.json")
+Required by: /.storybook/
+
+Require stack:
+- /.storybook/main.js
+- /Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/common/index.cjs
+- /Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/storybook-virtual-a498bcbedd/4/.yarn/berry/cache/storybook-npm-8.4.7-7118bdeebd-10c0.zip/node_modules/storybook/dist/proxy.cjs
+- /Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/storybook-virtual-a498bcbedd/4/.yarn/berry/cache/storybook-npm-8.4.7-7118bdeebd-10c0.zip/node_modules/storybook/bin/index.cjs
+    at require$0.Module._resolveFilename (/Users/song/Desktop/fastcampus/front-projects/.pnp.cjs:15357:13)
+    at Function.resolve (node:internal/modules/helpers:190:19)
+    at getAbsolutePath (/.storybook/main.js:8:26)
+    at Object.<anonymous> (/.storybook/main.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/esbuild-register-virtual-97cf5100ac/4/.yarn/berry/cache/esbuild-register-npm-3.6.0-72017fa8ae-10c0.zip/node_modules/esbuild-register/dist/node.js:2258:26)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at require$0.Module._extensions..js (/Users/song/Desktop/fastcampus/front-projects/.pnp.cjs:15400:33)
+    at Object.newLoader (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/esbuild-register-virtual-97cf5100ac/4/.yarn/berry/cache/esbuild-register-npm-3.6.0-72017fa8ae-10c0.zip/node_modules/esbuild-register/dist/node.js:2262:9)
+    at extensions..js (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/esbuild-register-virtual-97cf5100ac/4/.yarn/berry/cache/esbuild-register-npm-3.6.0-72017fa8ae-10c0.zip/node_modules/esbuild-register/dist/node.js:4833:24)[39m[39m
+    at loadMainConfig (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/common/index.cjs:17511:11)
+    at async buildDevStandalone (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/core-server/index.cjs:37134:11)
+    at async withTelemetry (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/core-server/index.cjs:35757:12)
+    at async dev (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/cli/bin/index.cjs:2591:3)
+    at async s.<anonymous> (/Users/song/Desktop/fastcampus/front-projects/.yarn/__virtual__/@storybook-core-virtual-6463b77081/4/.yarn/berry/cache/@storybook-core-npm-8.4.7-69e17b4cab-10c0.zip/node_modules/@storybook/core/dist/cli/bin/index.cjs:2643:74)
+
+WARN Broken build, fix the error above.
+WARN You may need to refresh the browser.
+

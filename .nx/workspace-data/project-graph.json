@@ -588,15 +588,6 @@
         "hash": "10c0/0dc254561a3cc0a06a10bbce7f6a997883fd240c8c1928b93713f803a2e9153a257a488537012efe89dbe1246f2abfe2add62cdb3471a13d67137fcb808e81c2"
       }
     },
-    "npm:@emotion/use-insertion-effect-with-fallbacks@1.2.0": {
-      "type": "npm",
-      "name": "npm:@emotion/use-insertion-effect-with-fallbacks@1.2.0",
-      "data": {
-        "version": "1.2.0",
-        "packageName": "@emotion/use-insertion-effect-with-fallbacks",
-        "hash": "10c0/074dbc92b96bdc09209871070076e3b0351b6b47efefa849a7d9c37ab142130767609ca1831da0055988974e3b895c1de7606e4c421fecaa27c3e56a2afd3b08"
-      }
-    },
     "npm:@esbuild/aix-ppc64@0.21.5": {
       "type": "npm",
       "name": "npm:@esbuild/aix-ppc64@0.21.5",
@@ -2055,15 +2046,6 @@
         "hash": "10c0/4dec3b59be1f3b99d3c9eaab695a7e346d975b772f6691f8286005d78a13a204c5680c6c8733ae83060c7639b56efed9f3580cee7413834ac6595b56345183ef"
       }
     },
-    "npm:@storybook/addons@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/addons@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/addons",
-        "hash": "10c0/e05d797e4871258925988446fddde662b9086aba71d4351c25f3cce6d64e3b7b5a22d7879db1d0b70f7c81fa9c41a70f2be2309564574f729cea1f3153bb6579"
-      }
-    },
     "npm:@storybook/blocks@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/blocks@8.4.7",
@@ -2082,24 +2064,6 @@
         "hash": "10c0/138651b9042356972580a121eb3116c745f9fbc8b188ae0a5e543070dc54fcb6c1f14d35bc0cd1294ee763993a5f0e3a30cbe92508e74d183fed04a4d4125591"
       }
     },
-    "npm:@storybook/channels@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/channels@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/channels",
-        "hash": "10c0/5aaa3e06a27750ffc48be6a5375dc286e1de5ae6c54f8318338afa2bbea68e37842f8eb17ce509c5587af173289640e78a4bbec3f234be9395bd08a0e1820308"
-      }
-    },
-    "npm:@storybook/client-logger@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/client-logger@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/client-logger",
-        "hash": "10c0/cd1a9cb0a484a1585d5b4a918b20335ba8bd6655ae0051ba30c729b75678bafca62b8ef124fecd5c5883debf41d93a1827cf7bdf08df666f64de3cc15864be54"
-      }
-    },
     "npm:@storybook/components@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/components@8.4.7",
@@ -2107,24 +2071,6 @@
         "version": "8.4.7",
         "packageName": "@storybook/components",
         "hash": "10c0/7c1eb12fe2310a306f3c2f77a499c3a0caeb4694d4af8dde418f3b2d2ac8a3549b3f56cdc4629b9c15d79177c72e8668dd781a71bf257948f799b0e9cba201fa"
-      }
-    },
-    "npm:@storybook/core-events@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/core-events@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/core-events",
-        "hash": "10c0/4ee2cc7ca6d7cae579befab640bfe1e8b30243305f73e7d731e40aa1295ff5fc1b6c61561929d2e4db315f7c4f5b3cfdf0ddc3746b3660d34b0dd3911a55d4ad"
-      }
-    },
-    "npm:@storybook/core-events@8.4.7": {
-      "type": "npm",
-      "name": "npm:@storybook/core-events@8.4.7",
-      "data": {
-        "version": "8.4.7",
-        "packageName": "@storybook/core-events",
-        "hash": "10c0/3e8267a5bb6aa8cd3fcbf81a5fead96e6e0416568518a966e90b2409b998e7c49d87cd97e928be43cc9e978784f5474d19cc71c707937adf712db390784f4f05"
       }
     },
     "npm:@storybook/core@8.4.7": {
@@ -2190,15 +2136,6 @@
         "hash": "10c0/bc0865fed7f3c8242cd97978257e3d48f1880ad01e9794cc45122c4bcc7cf4a498c6ff8deebffcc70332b4a096e98b00e695ac152e40d0ef2c23160009c86f5d"
       }
     },
-    "npm:@storybook/manager-api@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/manager-api@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/manager-api",
-        "hash": "10c0/3b773f203b7e95f6e55faca76875282a25ffb9f91061bbdac868976ae2d3e388b0a2306695e5472edbd74312d800eceb539f39c6d5a23f6be00260270eba5531"
-      }
-    },
     "npm:@storybook/manager-api@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/manager-api@8.4.7",
@@ -2206,15 +2143,6 @@
         "version": "8.4.7",
         "packageName": "@storybook/manager-api",
         "hash": "10c0/a3aeed441a2cca1a8fac73336a853b389a00a1e7dbbbbcd54492a90f2f12f86e976235fd1272f27a606532fb7e0f82dec3f7ecd1f2b87b03ffa74b667830152a"
-      }
-    },
-    "npm:@storybook/preview-api@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/preview-api@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/preview-api",
-        "hash": "10c0/5c35a579b41f286ea93d4bab5a95641ca1676f2c2430198117962acde25137161d0a630dc79fe8d80460afb4b3946c6b46b9cebe1f2cb02e45ea17224771ab21"
       }
     },
     "npm:@storybook/preview-api@8.4.7": {
@@ -2253,15 +2181,6 @@
         "hash": "10c0/9ca588446171491458e9adb5f9cf69b17517feddb4edd876da495843a45fa48a9c9272d4823090546e24a78dd7a93f1dcedef96257054383eb5678bfae6ccc09"
       }
     },
-    "npm:@storybook/router@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/router@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/router",
-        "hash": "10c0/0057c348acc84c0a733a9833d405fc20ccc1e434c8a9cf7c8011ed04450a71d05cfc6bbccae1cbff5594b6a4a1bdfeff43a36a8e645cc2643879d13f384ef58e"
-      }
-    },
     "npm:@storybook/test@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/test@8.4.7",
@@ -2271,15 +2190,6 @@
         "hash": "10c0/4b100eacdca6d016a08358b1bf4c17f36450dffc9005557e0184814e546e71d200afccfb652fd2d45404fbd15e75f61fb4b93d869694249769ca919a0a2111f1"
       }
     },
-    "npm:@storybook/theming@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/theming@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/theming",
-        "hash": "10c0/7ab97d6a93837900391212ac1638a247d2ccac55bd1261bb34739a11f226040c47da5fc5fde120d4829a3f068b55ce34a2d42c0b14bcfa71e97b18a4288161f3"
-      }
-    },
     "npm:@storybook/theming@8.4.7": {
       "type": "npm",
       "name": "npm:@storybook/theming@8.4.7",
@@ -2287,15 +2197,6 @@
         "version": "8.4.7",
         "packageName": "@storybook/theming",
         "hash": "10c0/20a4975478063cea616ce6ab6b1e9ec181af1424280678ed74dc5afc15b828c043e843696a1643601331c4fd266169ec4bcc5bb43fd2f1f3c01c0e21443a658a"
-      }
-    },
-    "npm:@storybook/types@7.6.20": {
-      "type": "npm",
-      "name": "npm:@storybook/types@7.6.20",
-      "data": {
-        "version": "7.6.20",
-        "packageName": "@storybook/types",
-        "hash": "10c0/148ba54a43a247291d43e06585688279a6ea52ea0e227bab3f28d589adb02b5f436862e49a6c943940da81204662bcfc87922f61011518a554b0d3c83b0293aa"
       }
     },
     "npm:@testing-library/dom@10.4.0": {
@@ -2379,24 +2280,6 @@
         "hash": "10c0/7ba7db61a53e28cac955aa99af280d2600f15a8c056619c05b6fc911cbe02c61aa4f2823299221b23ce0cce00b294c0e5f618ec772aa3f247523c2e48cf7b888"
       }
     },
-    "npm:@types/body-parser@1.19.5": {
-      "type": "npm",
-      "name": "npm:@types/body-parser@1.19.5",
-      "data": {
-        "version": "1.19.5",
-        "packageName": "@types/body-parser",
-        "hash": "10c0/aebeb200f25e8818d8cf39cd0209026750d77c9b85381cdd8deeb50913e4d18a1ebe4b74ca9b0b4d21952511eeaba5e9fbbf739b52731a2061e206ec60d568df"
-      }
-    },
-    "npm:@types/connect@3.4.38": {
-      "type": "npm",
-      "name": "npm:@types/connect@3.4.38",
-      "data": {
-        "version": "3.4.38",
-        "packageName": "@types/connect",
-        "hash": "10c0/2e1cdba2c410f25649e77856505cd60223250fa12dff7a503e492208dbfdd25f62859918f28aba95315251fd1f5e1ffbfca1e25e73037189ab85dd3f8d0a148c"
-      }
-    },
     "npm:@types/doctrine@0.0.9": {
       "type": "npm",
       "name": "npm:@types/doctrine@0.0.9",
@@ -2415,24 +2298,6 @@
         "hash": "10c0/cdfd751f6f9065442cd40957c07fd80361c962869aa853c1c2fd03e101af8b9389d8ff4955a43a6fcfa223dd387a089937f95be0f3eec21ca527039fd2d9859a"
       }
     },
-    "npm:@types/express-serve-static-core@4.19.6": {
-      "type": "npm",
-      "name": "npm:@types/express-serve-static-core@4.19.6",
-      "data": {
-        "version": "4.19.6",
-        "packageName": "@types/express-serve-static-core",
-        "hash": "10c0/4281f4ead71723f376b3ddf64868ae26244d434d9906c101cf8d436d4b5c779d01bd046e4ea0ed1a394d3e402216fabfa22b1fa4dba501061cd7c81c54045983"
-      }
-    },
-    "npm:@types/express@4.17.21": {
-      "type": "npm",
-      "name": "npm:@types/express@4.17.21",
-      "data": {
-        "version": "4.17.21",
-        "packageName": "@types/express",
-        "hash": "10c0/12e562c4571da50c7d239e117e688dc434db1bac8be55613294762f84fd77fbd0658ccd553c7d3ab02408f385bc93980992369dd30e2ecd2c68c358e6af8fabf"
-      }
-    },
     "npm:@types/glob@7.2.0": {
       "type": "npm",
       "name": "npm:@types/glob@7.2.0",
@@ -2440,15 +2305,6 @@
         "version": "7.2.0",
         "packageName": "@types/glob",
         "hash": "10c0/a8eb5d5cb5c48fc58c7ca3ff1e1ddf771ee07ca5043da6e4871e6757b4472e2e73b4cfef2644c38983174a4bc728c73f8da02845c28a1212f98cabd293ecae98"
-      }
-    },
-    "npm:@types/http-errors@2.0.4": {
-      "type": "npm",
-      "name": "npm:@types/http-errors@2.0.4",
-      "data": {
-        "version": "2.0.4",
-        "packageName": "@types/http-errors",
-        "hash": "10c0/494670a57ad4062fee6c575047ad5782506dd35a6b9ed3894cea65830a94367bd84ba302eb3dde331871f6d70ca287bfedb1b2cf658e6132cd2cbd427ab56836"
       }
     },
     "npm:@types/json-schema@7.0.15": {
@@ -2478,15 +2334,6 @@
         "hash": "10c0/5edf1099505ac568da55f9ae8a93e7e314e8cbc13d3445d0be61b75941226b005e1390d9b95caecf5dcb00c9d1bab2f1f60f6ff9876dc091a48b547495007720"
       }
     },
-    "npm:@types/mime@1.3.5": {
-      "type": "npm",
-      "name": "npm:@types/mime@1.3.5",
-      "data": {
-        "version": "1.3.5",
-        "packageName": "@types/mime",
-        "hash": "10c0/c2ee31cd9b993804df33a694d5aa3fa536511a49f2e06eeab0b484fef59b4483777dbb9e42a4198a0809ffbf698081fdbca1e5c2218b82b91603dfab10a10fbc"
-      }
-    },
     "npm:@types/minimatch@5.1.2": {
       "type": "npm",
       "name": "npm:@types/minimatch@5.1.2",
@@ -2512,24 +2359,6 @@
         "version": "15.7.14",
         "packageName": "@types/prop-types",
         "hash": "10c0/1ec775160bfab90b67a782d735952158c7e702ca4502968aa82565bd8e452c2de8601c8dfe349733073c31179116cf7340710160d3836aa8a1ef76d1532893b1"
-      }
-    },
-    "npm:@types/qs@6.9.17": {
-      "type": "npm",
-      "name": "npm:@types/qs@6.9.17",
-      "data": {
-        "version": "6.9.17",
-        "packageName": "@types/qs",
-        "hash": "10c0/a183fa0b3464267f8f421e2d66d960815080e8aab12b9aadab60479ba84183b1cdba8f4eff3c06f76675a8e42fe6a3b1313ea76c74f2885c3e25d32499c17d1b"
-      }
-    },
-    "npm:@types/range-parser@1.2.7": {
-      "type": "npm",
-      "name": "npm:@types/range-parser@1.2.7",
-      "data": {
-        "version": "1.2.7",
-        "packageName": "@types/range-parser",
-        "hash": "10c0/361bb3e964ec5133fa40644a0b942279ed5df1949f21321d77de79f48b728d39253e5ce0408c9c17e4e0fd95ca7899da36841686393b9f7a1e209916e9381a3c"
       }
     },
     "npm:@types/react-dom@18.3.5": {
@@ -2566,24 +2395,6 @@
         "version": "7.5.8",
         "packageName": "@types/semver",
         "hash": "10c0/8663ff927234d1c5fcc04b33062cb2b9fcfbe0f5f351ed26c4d1e1581657deebd506b41ff7fdf89e787e3d33ce05854bc01686379b89e9c49b564c4cfa988efa"
-      }
-    },
-    "npm:@types/send@0.17.4": {
-      "type": "npm",
-      "name": "npm:@types/send@0.17.4",
-      "data": {
-        "version": "0.17.4",
-        "packageName": "@types/send",
-        "hash": "10c0/7f17fa696cb83be0a104b04b424fdedc7eaba1c9a34b06027239aba513b398a0e2b7279778af521f516a397ced417c96960e5f50fcfce40c4bc4509fb1a5883c"
-      }
-    },
-    "npm:@types/serve-static@1.15.7": {
-      "type": "npm",
-      "name": "npm:@types/serve-static@1.15.7",
-      "data": {
-        "version": "1.15.7",
-        "packageName": "@types/serve-static",
-        "hash": "10c0/26ec864d3a626ea627f8b09c122b623499d2221bbf2f470127f4c9ebfe92bd8a6bb5157001372d4c4bd0dd37a1691620217d9dc4df5aa8f779f3fd996b1c60ae"
       }
     },
     "npm:@types/triple-beam@1.3.5": {
@@ -4368,15 +4179,6 @@
         "hash": "10c0/58473e8a82794d01b38e5e435f6feaf648e3f36fdb3a56e98f417f4efae71ad1c0d4ebd8a9a7c50c3ad085820a93fc7494ad721e0e4ebc1da3573f4e1c3c7cdd"
       }
     },
-    "npm:file-system-cache@2.3.0": {
-      "type": "npm",
-      "name": "npm:file-system-cache@2.3.0",
-      "data": {
-        "version": "2.3.0",
-        "packageName": "file-system-cache",
-        "hash": "10c0/43de19f0db32e6546bb7abeecb1d6ea83c1eca23b38905c9415a29f6219cc9d6d87b0c1a6aca92c46a0f1bc276241a339f2f68b8aa0ca5c2eb64b6e1e3e4da01"
-      }
-    },
     "npm:filesize@10.1.6": {
       "type": "npm",
       "name": "npm:filesize@10.1.6",
@@ -4492,15 +4294,6 @@
         "version": "1.0.0",
         "packageName": "fs-constants",
         "hash": "10c0/a0cde99085f0872f4d244e83e03a46aa387b74f5a5af750896c6b05e9077fac00e9932fdf5aef84f2f16634cd473c63037d7a512576da7d5c2b9163d1909f3a8"
-      }
-    },
-    "npm:fs-extra@11.1.1": {
-      "type": "npm",
-      "name": "npm:fs-extra@11.1.1",
-      "data": {
-        "version": "11.1.1",
-        "packageName": "fs-extra",
-        "hash": "10c0/a2480243d7dcfa7d723c5f5b24cf4eba02a6ccece208f1524a2fbde1c629492cfb9a59e4b6d04faff6fbdf71db9fdc8ef7f396417a02884195a625f5d8dc9427"
       }
     },
     "npm:fs-minipass@3.0.3": {
@@ -6384,15 +6177,6 @@
         "hash": "10c0/14f76a8206bc3464f794fb2e3d3cc665ae416c01893ad7a02b23766eb07159144ee612ad67af5e84fa4479ccfe67678c4feb126b0485651b302babf66f04f9e9"
       }
     },
-    "npm:qs@6.13.1": {
-      "type": "npm",
-      "name": "npm:qs@6.13.1",
-      "data": {
-        "version": "6.13.1",
-        "packageName": "qs",
-        "hash": "10c0/5ef527c0d62ffca5501322f0832d800ddc78eeb00da3b906f1b260ca0492721f8cdc13ee4b8fd8ac314a6ec37b948798c7b603ccc167e954088df392092f160c"
-      }
-    },
     "npm:queue-microtask@1.2.3": {
       "type": "npm",
       "name": "npm:queue-microtask@1.2.3",
@@ -6400,15 +6184,6 @@
         "version": "1.2.3",
         "packageName": "queue-microtask",
         "hash": "10c0/900a93d3cdae3acd7d16f642c29a642aea32c2026446151f0778c62ac089d4b8e6c986811076e1ae180a694cedf077d453a11b58ff0a865629a4f82ab558e102"
-      }
-    },
-    "npm:ramda@0.29.0": {
-      "type": "npm",
-      "name": "npm:ramda@0.29.0",
-      "data": {
-        "version": "0.29.0",
-        "packageName": "ramda",
-        "hash": "10c0/b00eaaf1c62b06a99affa1d583e256bd65ad27ab9d0ef512f55d7d93b842e7cd244a4a09179f61fdd8548362e409323867a2b0477cbd0626b5644eb6ac7c53da"
       }
     },
     "npm:react-confetti@6.2.2": {
@@ -6969,24 +6744,6 @@
         "hash": "10c0/9ff3dabfad4049b635a85456f927a075c9d0c210e3ea336412d18220b2a86cbb9b13ec46d6c37b70a302a4ea4d49e30e5d4944dd60ae784073f1cde778ac8f4b"
       }
     },
-    "npm:store2@2.14.4": {
-      "type": "npm",
-      "name": "npm:store2@2.14.4",
-      "data": {
-        "version": "2.14.4",
-        "packageName": "store2",
-        "hash": "10c0/3453c9c8c153c760e6290395a7bc23669df5dc8a6e8a49f9b3187dbb9f86d14b58705aa4f17fad6b536d4b04fe3e66ea5bde12c1352abd52c6b303bbf5757ab6"
-      }
-    },
-    "npm:storybook-addon-root-attribute@1.0.2": {
-      "type": "npm",
-      "name": "npm:storybook-addon-root-attribute@1.0.2",
-      "data": {
-        "version": "1.0.2",
-        "packageName": "storybook-addon-root-attribute",
-        "hash": "10c0/6bd381dfecc37b588d6962bafffb9b23fabd9be7b62df419a12e9356daa31c217f7f8f452a1296dd30f867ffa30d2f4cc42a024916266356c20565c2cac39391"
-      }
-    },
     "npm:storybook-addon-root-attributes": {
       "type": "npm",
       "name": "npm:storybook-addon-root-attributes",
@@ -6996,9 +6753,9 @@
         "hash": "10c0/9e68a60a8e12c0cb6bc182f44ebf9e3b9d0e1e8449a509cc568b04ef2000bf281378bfa58b68aa23f3cd000db9e9b02f2d9ea9fe3b4dc7e103f9329a00f7bea3"
       }
     },
-    "npm:storybook@8.4.7": {
+    "npm:storybook": {
       "type": "npm",
-      "name": "npm:storybook@8.4.7",
+      "name": "npm:storybook",
       "data": {
         "version": "8.4.7",
         "packageName": "storybook",
@@ -7176,15 +6933,6 @@
         "hash": "10c0/6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39"
       }
     },
-    "npm:synchronous-promise@2.0.17": {
-      "type": "npm",
-      "name": "npm:synchronous-promise@2.0.17",
-      "data": {
-        "version": "2.0.17",
-        "packageName": "synchronous-promise",
-        "hash": "10c0/1babe643d8417789ef6e5a2f3d4b8abcda2de236acd09bbe2c98f6be82c0a2c92ed21a6e4f934845fa8de18b1435a9cba1e8c3d945032e8a532f076224c024b1"
-      }
-    },
     "npm:tar-stream@2.2.0": {
       "type": "npm",
       "name": "npm:tar-stream@2.2.0",
@@ -7201,15 +6949,6 @@
         "version": "7.4.3",
         "packageName": "tar",
         "hash": "10c0/d4679609bb2a9b48eeaf84632b6d844128d2412b95b6de07d53d8ee8baf4ca0857c9331dfa510390a0727b550fd543d4d1a10995ad86cdf078423fbb8d99831d"
-      }
-    },
-    "npm:telejson@7.2.0": {
-      "type": "npm",
-      "name": "npm:telejson@7.2.0",
-      "data": {
-        "version": "7.2.0",
-        "packageName": "telejson",
-        "hash": "10c0/d26e6cc93e54bfdcdb207b49905508c5db45862e811a2e2193a735409e47b14530e1c19351618a3e03ad2fd4ffc3759364fcd72851aba2df0300fab574b6151c"
       }
     },
     "npm:text-hex@1.0.0": {
@@ -7888,6 +7627,16 @@
       },
       {
         "source": "@front/storybook",
+        "target": "@front/react-components-layout",
+        "type": "static"
+      },
+      {
+        "source": "@front/storybook",
+        "target": "@front/theme",
+        "type": "static"
+      },
+      {
+        "source": "@front/storybook",
         "target": "npm:@storybook/addon-essentials@8.4.7",
         "type": "static"
       },
@@ -7928,7 +7677,12 @@
       },
       {
         "source": "@front/storybook",
-        "target": "npm:storybook@8.4.7",
+        "target": "npm:storybook",
+        "type": "static"
+      },
+      {
+        "source": "@front/storybook",
+        "target": "npm:storybook-addon-root-attributes",
         "type": "static"
       },
       {
@@ -7943,12 +7697,12 @@
       },
       {
         "source": "@front/storybook",
-        "target": "npm:react-dom@18.3.1",
+        "target": "npm:react-confetti@6.2.2",
         "type": "static"
       },
       {
         "source": "@front/storybook",
-        "target": "npm:react-confetti@6.2.2",
+        "target": "npm:react-dom@18.3.1",
         "type": "static"
       }
     ],
@@ -8806,23 +8560,6 @@
         "type": "static"
       }
     ],
-    "npm:@storybook/addons@7.6.20": [
-      {
-        "source": "npm:@storybook/addons@7.6.20",
-        "target": "npm:@storybook/manager-api@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/addons@7.6.20",
-        "target": "npm:@storybook/preview-api@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/addons@7.6.20",
-        "target": "npm:@storybook/types@7.6.20",
-        "type": "static"
-      }
-    ],
     "npm:@storybook/blocks@8.4.7": [
       {
         "source": "npm:@storybook/blocks@8.4.7",
@@ -8853,52 +8590,6 @@
       },
       {
         "source": "npm:@storybook/builder-vite@8.4.7",
-        "target": "npm:ts-dedent@2.2.0",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/channels@7.6.20": [
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:@storybook/client-logger@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:@storybook/core-events@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:@storybook/global@5.0.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:qs@6.13.1",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:telejson@7.2.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/channels@7.6.20",
-        "target": "npm:tiny-invariant@1.3.3",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/client-logger@7.6.20": [
-      {
-        "source": "npm:@storybook/client-logger@7.6.20",
-        "target": "npm:@storybook/global@5.0.0",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/core-events@7.6.20": [
-      {
-        "source": "npm:@storybook/core-events@7.6.20",
         "target": "npm:ts-dedent@2.2.0",
         "type": "static"
       }
@@ -8993,150 +8684,6 @@
         "type": "static"
       }
     ],
-    "npm:@storybook/manager-api@7.6.20": [
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/channels@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/client-logger@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/core-events@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/csf@0.1.13",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/global@5.0.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/router@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/theming@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:@storybook/types@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:dequal@2.0.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:lodash@4.17.21",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:memoizerific@1.11.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:store2@2.14.4",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:telejson@7.2.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/manager-api@7.6.20",
-        "target": "npm:ts-dedent@2.2.0",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/preview-api@7.6.20": [
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/channels@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/client-logger@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/core-events@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/csf@0.1.13",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/global@5.0.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@storybook/types@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:@types/qs@6.9.17",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:dequal@2.0.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:lodash@4.17.21",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:memoizerific@1.11.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:qs@6.13.1",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:synchronous-promise@2.0.17",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:ts-dedent@2.2.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/preview-api@7.6.20",
-        "target": "npm:util-deprecate@1.0.2",
-        "type": "static"
-      }
-    ],
     "npm:@storybook/react-vite@8.4.7": [
       {
         "source": "npm:@storybook/react-vite@8.4.7",
@@ -9216,23 +8763,6 @@
         "type": "static"
       }
     ],
-    "npm:@storybook/router@7.6.20": [
-      {
-        "source": "npm:@storybook/router@7.6.20",
-        "target": "npm:@storybook/client-logger@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/router@7.6.20",
-        "target": "npm:memoizerific@1.11.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/router@7.6.20",
-        "target": "npm:qs@6.13.1",
-        "type": "static"
-      }
-    ],
     "npm:@storybook/test@8.4.7": [
       {
         "source": "npm:@storybook/test@8.4.7",
@@ -9272,50 +8802,6 @@
       {
         "source": "npm:@storybook/test@8.4.7",
         "target": "npm:@vitest/spy@2.0.5",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/theming@7.6.20": [
-      {
-        "source": "npm:@storybook/theming@7.6.20",
-        "target": "npm:@emotion/use-insertion-effect-with-fallbacks@1.2.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/theming@7.6.20",
-        "target": "npm:@storybook/client-logger@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/theming@7.6.20",
-        "target": "npm:@storybook/global@5.0.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/theming@7.6.20",
-        "target": "npm:memoizerific@1.11.3",
-        "type": "static"
-      }
-    ],
-    "npm:@storybook/types@7.6.20": [
-      {
-        "source": "npm:@storybook/types@7.6.20",
-        "target": "npm:@storybook/channels@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/types@7.6.20",
-        "target": "npm:@types/babel__core@7.20.5",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/types@7.6.20",
-        "target": "npm:@types/express@4.17.21",
-        "type": "static"
-      },
-      {
-        "source": "npm:@storybook/types@7.6.20",
-        "target": "npm:file-system-cache@2.3.0",
         "type": "static"
       }
     ],
@@ -9458,69 +8944,6 @@
         "type": "static"
       }
     ],
-    "npm:@types/body-parser@1.19.5": [
-      {
-        "source": "npm:@types/body-parser@1.19.5",
-        "target": "npm:@types/connect@3.4.38",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/body-parser@1.19.5",
-        "target": "npm:@types/node@22.10.3",
-        "type": "static"
-      }
-    ],
-    "npm:@types/connect@3.4.38": [
-      {
-        "source": "npm:@types/connect@3.4.38",
-        "target": "npm:@types/node@22.10.3",
-        "type": "static"
-      }
-    ],
-    "npm:@types/express-serve-static-core@4.19.6": [
-      {
-        "source": "npm:@types/express-serve-static-core@4.19.6",
-        "target": "npm:@types/node@22.10.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express-serve-static-core@4.19.6",
-        "target": "npm:@types/qs@6.9.17",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express-serve-static-core@4.19.6",
-        "target": "npm:@types/range-parser@1.2.7",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express-serve-static-core@4.19.6",
-        "target": "npm:@types/send@0.17.4",
-        "type": "static"
-      }
-    ],
-    "npm:@types/express@4.17.21": [
-      {
-        "source": "npm:@types/express@4.17.21",
-        "target": "npm:@types/body-parser@1.19.5",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express@4.17.21",
-        "target": "npm:@types/express-serve-static-core@4.19.6",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express@4.17.21",
-        "target": "npm:@types/qs@6.9.17",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/express@4.17.21",
-        "target": "npm:@types/serve-static@1.15.7",
-        "type": "static"
-      }
-    ],
     "npm:@types/glob@7.2.0": [
       {
         "source": "npm:@types/glob@7.2.0",
@@ -9549,35 +8972,6 @@
       {
         "source": "npm:@types/react@18.3.18",
         "target": "npm:csstype@3.1.3",
-        "type": "static"
-      }
-    ],
-    "npm:@types/send@0.17.4": [
-      {
-        "source": "npm:@types/send@0.17.4",
-        "target": "npm:@types/mime@1.3.5",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/send@0.17.4",
-        "target": "npm:@types/node@22.10.3",
-        "type": "static"
-      }
-    ],
-    "npm:@types/serve-static@1.15.7": [
-      {
-        "source": "npm:@types/serve-static@1.15.7",
-        "target": "npm:@types/http-errors@2.0.4",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/serve-static@1.15.7",
-        "target": "npm:@types/node@22.10.3",
-        "type": "static"
-      },
-      {
-        "source": "npm:@types/serve-static@1.15.7",
-        "target": "npm:@types/send@0.17.4",
         "type": "static"
       }
     ],
@@ -12517,18 +11911,6 @@
         "type": "static"
       }
     ],
-    "npm:file-system-cache@2.3.0": [
-      {
-        "source": "npm:file-system-cache@2.3.0",
-        "target": "npm:fs-extra@11.1.1",
-        "type": "static"
-      },
-      {
-        "source": "npm:file-system-cache@2.3.0",
-        "target": "npm:ramda@0.29.0",
-        "type": "static"
-      }
-    ],
     "npm:fill-range@7.1.1": [
       {
         "source": "npm:fill-range@7.1.1",
@@ -12605,23 +11987,6 @@
       {
         "source": "npm:front-matter@4.0.2",
         "target": "npm:js-yaml@3.14.1",
-        "type": "static"
-      }
-    ],
-    "npm:fs-extra@11.1.1": [
-      {
-        "source": "npm:fs-extra@11.1.1",
-        "target": "npm:graceful-fs@4.2.11",
-        "type": "static"
-      },
-      {
-        "source": "npm:fs-extra@11.1.1",
-        "target": "npm:jsonfile@6.1.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:fs-extra@11.1.1",
-        "target": "npm:universalify@2.0.1",
         "type": "static"
       }
     ],
@@ -14400,13 +13765,6 @@
         "type": "static"
       }
     ],
-    "npm:qs@6.13.1": [
-      {
-        "source": "npm:qs@6.13.1",
-        "target": "npm:side-channel@1.1.0",
-        "type": "static"
-      }
-    ],
     "npm:react-confetti@6.2.2": [
       {
         "source": "npm:react-confetti@6.2.2",
@@ -15085,31 +14443,9 @@
         "type": "static"
       }
     ],
-    "npm:storybook-addon-root-attribute@1.0.2": [
+    "npm:storybook": [
       {
-        "source": "npm:storybook-addon-root-attribute@1.0.2",
-        "target": "npm:@storybook/addons@7.6.20",
-        "type": "static"
-      },
-      {
-        "source": "npm:storybook-addon-root-attribute@1.0.2",
-        "target": "npm:@storybook/components@8.4.7",
-        "type": "static"
-      },
-      {
-        "source": "npm:storybook-addon-root-attribute@1.0.2",
-        "target": "npm:@storybook/core-events@8.4.7",
-        "type": "static"
-      },
-      {
-        "source": "npm:storybook-addon-root-attribute@1.0.2",
-        "target": "npm:@storybook/theming@8.4.7",
-        "type": "static"
-      }
-    ],
-    "npm:storybook@8.4.7": [
-      {
-        "source": "npm:storybook@8.4.7",
+        "source": "npm:storybook",
         "target": "npm:@storybook/core@8.4.7",
         "type": "static"
       }
@@ -15442,13 +14778,6 @@
       {
         "source": "npm:tar@7.4.3",
         "target": "npm:yallist@5.0.0",
-        "type": "static"
-      }
-    ],
-    "npm:telejson@7.2.0": [
-      {
-        "source": "npm:telejson@7.2.0",
-        "target": "npm:memoizerific@1.11.3",
         "type": "static"
       }
     ],
