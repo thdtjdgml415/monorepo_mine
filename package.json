@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "nx build",
-    "graph": "nx run-many -t build --graph",
+    "graph": "nx run-many --target=build --graph",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @front/storybook",
     "dev:packages": "nx run-many --target=dev --projects='@front/react-components-*'"
@@ -33,7 +33,6 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "build": "^0.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }

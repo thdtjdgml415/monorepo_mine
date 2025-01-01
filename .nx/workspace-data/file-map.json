@@ -32,7 +32,7 @@
       },
       {
         "file": ".yarn/install-state.gz",
-        "hash": "11240067083628804870"
+        "hash": "801167359038364627"
       },
       {
         "file": ".yarn/releases/yarn-4.5.3.cjs",
@@ -112,7 +112,7 @@
       },
       {
         "file": "package.json",
-        "hash": "8385367463444718081"
+        "hash": "8748852731688012788"
       },
       {
         "file": "tsconfig.base.json",
@@ -124,27 +124,10 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "15278651634113333121"
+        "hash": "6267687309296653120"
       }
     ],
     "projectFileMap": {
-      "@front/esbuild-config": [
-        {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
-        },
-        {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "501211161428582032"
-        },
-        {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "10543545773333496428",
-          "deps": [
-            "npm:esbuild@0.16.17"
-          ]
-        }
-      ],
       "@front/storybook": [
         {
           "file": "services/storybook/.storybook/main.js",
@@ -188,6 +171,23 @@
         {
           "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
           "hash": "2157262342038173389"
+        }
+      ],
+      "@front/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "501211161428582032"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "10543545773333496428",
+          "deps": [
+            "npm:esbuild@0.16.17"
+          ]
         }
       ],
       "@front/theme": [
