@@ -20,10 +20,14 @@ const config = {
     getAbsolutePath("@chromatic-com/storybook"),
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("storybook-addon-root-attributes"),
+    getAbsolutePath("@storybook/addon-themes"),
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
+  },
+  docs: {
+    autodocs: "tag",
   },
 };
 export default config;

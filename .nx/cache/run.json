@@ -1,21 +1,9 @@
 {
   "run": {
-    "command": "nx storybook @front/storybook",
-    "startTime": "2025-01-01T12:46:18.004Z",
-    "endTime": "2025-01-01T12:46:24.125Z",
+    "command": "nx run-many --target=dev --projects=@front/react-hooks-*,@fastcampus/react-components-*",
+    "startTime": "2025-01-04T11:54:50.180Z",
+    "endTime": "2025-01-04T11:54:50.185Z",
     "inner": false
   },
-  "tasks": [
-    {
-      "taskId": "@front/storybook:storybook",
-      "target": "storybook",
-      "projectName": "@front/storybook",
-      "hash": "8424055863563602435",
-      "startTime": "2025-01-01T12:46:18.009Z",
-      "endTime": "2025-01-01T12:46:24.125Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    }
-  ]
+  "tasks": []
 }

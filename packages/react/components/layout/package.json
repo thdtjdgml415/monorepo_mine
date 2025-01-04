@@ -33,5 +33,9 @@
     "@front/theme": "workspace:^",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"
+  },
+  "dependencies": {
+    "@vanilla-extract/sprinkles": "^1.6.3",
+    "clsx": "^2.1.1"
   }
 }
