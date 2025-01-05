@@ -1,24 +1,28 @@
-import * as React from "react";
-import { BoxProps } from "./types";
 import { clsx } from "clsx";
+import * as React from "react";
 import { StyleSprinkles } from "../core/style.css";
 import { extractSprinkleProps } from "../utils/properties";
+import { TextProps } from "./types";
 import { vars } from "@front/theme";
+import { textStyle } from "./style.css";
 
-const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
-  const { as = "div", color, background, children } = props;
+const Text = (props: TextProps, ref: React.Ref<HTMLElement>) => {
+  const { as = "p", color = "gray", background, children, fontSize } = props;
 
   return React.createElement(
     as,
     {
+      ...props,
       ref,
       className: clsx([
         StyleSprinkles(
           extractSprinkleProps(props, Array.from(StyleSprinkles.properties)),
         ),
+        textStyle({
+          fontSize,
+        }),
         props.className,
       ]),
-      ...props,
       style: {
         color: color && vars.colors.$scale?.[color]?.[700],
         background: background && vars.colors.$scale?.[background]?.[100],
@@ -29,6 +33,5 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
   );
 };
 
-const _Box = React.forwardRef(Box);
-
-export { _Box as Box };
+const _Text = React.forwardRef(Text);
+export { _Text as Text };

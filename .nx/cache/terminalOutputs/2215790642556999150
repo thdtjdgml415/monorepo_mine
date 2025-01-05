@@ -1,0 +1,415 @@
+[31m(node:26191) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)[39m
+cssClasses [
+  [32m':root {\n'[39m +
+    [32m'--radii-none: 0;\n'[39m +
+    [32m'--radii-sm: 0.125rem;\n'[39m +
+    [32m'--radii-base: 0.25rem;\n'[39m +
+    [32m'--radii-md: 0.375rem;\n'[39m +
+    [32m'--radii-lg: 0.5rem;\n'[39m +
+    [32m'--radii-xl: 0.75rem;\n'[39m +
+    [32m'--radii-2xl: 1rem;\n'[39m +
+    [32m'--radii-3xl: 1.5rem;\n'[39m +
+    [32m'--radii-full: 9999px;\n'[39m +
+    [32m'--shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);\n'[39m +
+    [32m'--shadows-sm: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);\n'[39m +
+    [32m'--shadows-base: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);\n'[39m +
+    [32m'--shadows-md: 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);\n'[39m +
+    [32m'--shadows-lg: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);\n'[39m +
+    [32m'--shadows-xl: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);\n'[39m +
+    [32m'--shadows-2xl: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);\n'[39m +
+    [32m'--shadows-inner: 0px 2px 4px 0px rgba(0, 0, 0, 0.06) inset;\n'[39m +
+    [32m'--shadows-dark-lg: 0px 15px 40px 0px rgba(0, 0, 0, 0.40), 0px 5px 10px 0px rgba(0, 0, 0, 0.20), 0px 0px 0px 1px rgba(0, 0, 0, 0.10);\n'[39m +
+    [32m'--shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);\n'[39m +
+    [32m'--spacing-0: 0;\n'[39m +
+    [32m'--spacing-1: 0.25rem;\n'[39m +
+    [32m'--spacing-2: 0.5rem;\n'[39m +
+    [32m'--spacing-3: 0.75rem;\n'[39m +
+    [32m'--spacing-4: 1rem;\n'[39m +
+    [32m'--spacing-5: 1.25rem;\n'[39m +
+    [32m'--spacing-6: 1.5rem;\n'[39m +
+    [32m'--spacing-7: 1.75rem;\n'[39m +
+    [32m'--spacing-8: 2rem;\n'[39m +
+    [32m'--spacing-9: 2.25rem;\n'[39m +
+    [32m'--spacing-10: 2.5rem;\n'[39m +
+    [32m'--spacing-11: 2.75rem;\n'[39m +
+    [32m'--spacing-12: 3rem;\n'[39m +
+    [32m'--spacing-14: 3.5rem;\n'[39m +
+    [32m'--spacing-16: 4rem;\n'[39m +
+    [32m'--spacing-20: 5rem;\n'[39m +
+    [32m'--spacing-24: 6rem;\n'[39m +
+    [32m'--spacing-28: 7rem;\n'[39m +
+    [32m'--spacing-32: 8rem;\n'[39m +
+    [32m'--spacing-36: 9rem;\n'[39m +
+    [32m'--spacing-40: 10rem;\n'[39m +
+    [32m'--spacing-44: 11rem;\n'[39m +
+    [32m'--spacing-48: 12rem;\n'[39m +
+    [32m'--spacing-52: 13rem;\n'[39m +
+    [32m'--spacing-56: 14rem;\n'[39m +
+    [32m'--spacing-60: 15rem;\n'[39m +
+    [32m'--spacing-64: 16rem;\n'[39m +
+    [32m'--spacing-72: 18rem;\n'[39m +
+    [32m'--spacing-80: 20rem;\n'[39m +
+    [32m'--spacing-96: 24rem;\n'[39m +
+    [32m'}'[39m,
+  [32m':root .theme-dark {\n'[39m +
+    [32m'--black-alpha-50: rgba(0, 0, 0, 0.04);\n'[39m +
+    [32m'--black-alpha-100: rgba(0, 0, 0, 0.06);\n'[39m +
+    [32m'--black-alpha-200: rgba(0, 0, 0, 0.08);\n'[39m +
+    [32m'--black-alpha-300: rgba(0, 0, 0, 0.16);\n'[39m +
+    [32m'--black-alpha-400: rgba(0, 0, 0, 0.24);\n'[39m +
+    [32m'--black-alpha-500: rgba(0, 0, 0, 0.36);\n'[39m +
+    [32m'--black-alpha-600: rgba(0, 0, 0, 0.48);\n'[39m +
+    [32m'--black-alpha-700: rgba(0, 0, 0, 0.64);\n'[39m +
+    [32m'--black-alpha-800: rgba(0, 0, 0, 0.80);\n'[39m +
+    [32m'--black-alpha-900: rgba(0, 0, 0, 0.92);\n'[39m +
+    [32m'--blue-50: #1A365D;\n'[39m +
+    [32m'--blue-100: #2a4365;\n'[39m +
+    [32m'--blue-200: #2c5282;\n'[39m +
+    [32m'--blue-300: #2b6cb0;\n'[39m +
+    [32m'--blue-400: #3182ce;\n'[39m +
+    [32m'--blue-500: #4299e1;\n'[39m +
+    [32m'--blue-600: #63b3ed;\n'[39m +
+    [32m'--blue-700: #90cdf4;\n'[39m +
+    [32m'--blue-800: #bee3f8;\n'[39m +
+    [32m'--blue-900: #ebf8ff;\n'[39m +
+    [32m'--color-black: #000;\n'[39m +
+    [32m'--color-white: #fff;\n'[39m +
+    [32m'--cyan-50: #065666;\n'[39m +
+    [32m'--cyan-100: #086F83;\n'[39m +
+    [32m'--cyan-200: #0987A0;\n'[39m +
+    [32m'--cyan-300: #00A3C4;\n'[39m +
+    [32m'--cyan-400: #00B5D8;\n'[39m +
+    [32m'--cyan-500: #0BC5EA;\n'[39m +
+    [32m'--cyan-600: #76E4F7;\n'[39m +
+    [32m'--cyan-700: #9DECF9;\n'[39m +
+    [32m'--cyan-800: #C4F1F9;\n'[39m +
+    [32m'--cyan-900: #EDFDFD;\n'[39m +
+    [32m'--gray-50: #171923;\n'[39m +
+    [32m'--gray-100: #1A202C;\n'[39m +
+    [32m'--gray-200: #2D3748;\n'[39m +
+    [32m'--gray-300: #4A5568;\n'[39m +
+    [32m'--gray-400: #718096;\n'[39m +
+    [32m'--gray-500: #A0AEC0;\n'[39m +
+    [32m'--gray-600: #CBD5E0;\n'[39m +
+    [32m'--gray-700: #E2E8F0;\n'[39m +
+    [32m'--gray-800: #EDF2F7;\n'[39m +
+    [32m'--gray-900: #F7FAFC;\n'[39m +
+    [32m'--green-50: #1C4532;\n'[39m +
+    [32m'--green-100: #22543D;\n'[39m +
+    [32m'--green-200: #276749;\n'[39m +
+    [32m'--green-300: #2F855A;\n'[39m +
+    [32m'--green-400: #38A169;\n'[39m +
+    [32m'--green-500: #48BB78;\n'[39m +
+    [32m'--green-600: #68D391;\n'[39m +
+    [32m'--green-700: #9AE6B4;\n'[39m +
+    [32m'--green-800: #C6F6D5;\n'[39m +
+    [32m'--green-900: #F0FFF4;\n'[39m +
+    [32m'--orange-50: #652B19;\n'[39m +
+    [32m'--orange-100: #7B341E;\n'[39m +
+    [32m'--orange-200: #9C4221;\n'[39m +
+    [32m'--orange-300: #C05621;\n'[39m +
+    [32m'--orange-400: #DD6B20;\n'[39m +
+    [32m'--orange-500: #ED8936;\n'[39m +
+    [32m'--orange-600: #F6AD55;\n'[39m +
+    [32m'--orange-700: #FBD38D;\n'[39m +
+    [32m'--orange-800: #FEEBC8;\n'[39m +
+    [32m'--orange-900: #FFFAF0;\n'[39m +
+    [32m'--pink-50: #521B41;\n'[39m +
+    [32m'--pink-100: #702459;\n'[39m +
+    [32m'--pink-200: #97266D;\n'[39m +
+    [32m'--pink-300: #B83280;\n'[39m +
+    [32m'--pink-400: #D53F8C;\n'[39m +
+    [32m'--pink-500: #ED64A6;\n'[39m +
+    [32m'--pink-600: #F687B3;\n'[39m +
+    [32m'--pink-700: #FBB6CE;\n'[39m +
+    [32m'--pink-800: #FED7E2;\n'[39m +
+    [32m'--pink-900: #FFF5F7;\n'[39m +
+    [32m'--purple-50: #322659;\n'[39m +
+    [32m'--purple-100: #44337A;\n'[39m +
+    [32m'--purple-200: #553C9A;\n'[39m +
+    [32m'--purple-300: #6B46C1;\n'[39m +
+    [32m'--purple-400: #805AD5;\n'[39m +
+    [32m'--purple-500: #9F7AEA;\n'[39m +
+    [32m'--purple-600: #B794F4;\n'[39m +
+    [32m'--purple-700: #D6BCFA;\n'[39m +
+    [32m'--purple-800: #E9D8FD;\n'[39m +
+    [32m'--purple-900: #FAF5FF;\n'[39m +
+    [32m'--red-50: #63171B;\n'[39m +
+    [32m'--red-100: #822727;\n'[39m +
+    [32m'--red-200: #9B2C2C;\n'[39m +
+    [32m'--red-300: #C53030;\n'[39m +
+    [32m'--red-400: #E53E3E;\n'[39m +
+    [32m'--red-500: #F56565;\n'[39m +
+    [32m'--red-600: #FC8181;\n'[39m +
+    [32m'--red-700: #FEB2B2;\n'[39m +
+    [32m'--red-800: #FED7D7;\n'[39m +
+    [32m'--red-900: #FFF5F5;\n'[39m +
+    [32m'--teal-50: #1D4044;\n'[39m +
+    [32m'--teal-100: #234E52;\n'[39m +
+    [32m'--teal-200: #285E61;\n'[39m +
+    [32m'--teal-300: #2C7A7B;\n'[39m +
+    [32m'--teal-400: #319795;\n'[39m +
+    [32m'--teal-500: #38B2AC;\n'[39m +
+    [32m'--teal-600: #4FD1C5;\n'[39m +
+    [32m'--teal-700: #81E6D9;\n'[39m +
+    [32m'--teal-800: #B2F5EA;\n'[39m +
+    [32m'--teal-900: #E6FFFA;\n'[39m +
+    [32m'--white-alpha-50: rgba(255, 255, 255, 0.04);\n'[39m +
+    [32m'--white-alpha-100: rgba(255, 255, 255, 0.06);\n'[39m +
+    [32m'--white-alpha-200: rgba(255, 255, 255, 0.08);\n'[39m +
+    [32m'--white-alpha-300: rgba(255, 255, 255, 0.16);\n'[39m +
+    [32m'--white-alpha-400: rgba(255, 255, 255, 0.24);\n'[39m +
+    [32m'--white-alpha-500: rgba(255, 255, 255, 0.36);\n'[39m +
+    [32m'--white-alpha-600: rgba(255, 255, 255, 0.48);\n'[39m +
+    [32m'--white-alpha-700: rgba(255, 255, 255, 0.64);\n'[39m +
+    [32m'--white-alpha-800: rgba(255, 255, 255, 0.80);\n'[39m +
+    [32m'--white-alpha-900: rgba(255, 255, 255, 0.92);\n'[39m +
+    [32m'--yellow-50: #5F370E;\n'[39m +
+    [32m'--yellow-100: #744210;\n'[39m +
+    [32m'--yellow-200: #975A16;\n'[39m +
+    [32m'--yellow-300: #B7791F;\n'[39m +
+    [32m'--yellow-400: #D69E2E;\n'[39m +
+    [32m'--yellow-500: #ECC94B;\n'[39m +
+    [32m'--yellow-600: #F6E05E;\n'[39m +
+    [32m'--yellow-700: #FAF089;\n'[39m +
+    [32m'--yellow-800: #FEFCBF;\n'[39m +
+    [32m'--yellow-900: #FFFFF0;\n'[39m +
+    [32m'}'[39m,
+  [32m':root {\n'[39m +
+    [32m'--black-alpha-50: rgba(0, 0, 0, 0.04);\n'[39m +
+    [32m'--black-alpha-100: rgba(0, 0, 0, 0.06);\n'[39m +
+    [32m'--black-alpha-200: rgba(0, 0, 0, 0.08);\n'[39m +
+    [32m'--black-alpha-300: rgba(0, 0, 0, 0.16);\n'[39m +
+    [32m'--black-alpha-400: rgba(0, 0, 0, 0.24);\n'[39m +
+    [32m'--black-alpha-500: rgba(0, 0, 0, 0.36);\n'[39m +
+    [32m'--black-alpha-600: rgba(0, 0, 0, 0.48);\n'[39m +
+    [32m'--black-alpha-700: rgba(0, 0, 0, 0.64);\n'[39m +
+    [32m'--black-alpha-800: rgba(0, 0, 0, 0.80);\n'[39m +
+    [32m'--black-alpha-900: rgba(0, 0, 0, 0.92);\n'[39m +
+    [32m'--blue-50: #ebf8ff;\n'[39m +
+    [32m'--blue-100: #bee3f8;\n'[39m +
+    [32m'--blue-200: #90cdf4;\n'[39m +
+    [32m'--blue-300: #63b3ed;\n'[39m +
+    [32m'--blue-400: #4299e1;\n'[39m +
+    [32m'--blue-500: #3182ce;\n'[39m +
+    [32m'--blue-600: #2b6cb0;\n'[39m +
+    [32m'--blue-700: #2c5282;\n'[39m +
+    [32m'--blue-800: #2a4365;\n'[39m +
+    [32m'--blue-900: #1A365D;\n'[39m +
+    [32m'--color-black: #000;\n'[39m +
+    [32m'--color-white: #fff;\n'[39m +
+    [32m'--cyan-50: #EDFDFD;\n'[39m +
+    [32m'--cyan-100: #C4F1F9;\n'[39m +
+    [32m'--cyan-200: #9DECF9;\n'[39m +
+    [32m'--cyan-300: #76E4F7;\n'[39m +
+    [32m'--cyan-400: #0BC5EA;\n'[39m +
+    [32m'--cyan-500: #00B5D8;\n'[39m +
+    [32m'--cyan-600: #00A3C4;\n'[39m +
+    [32m'--cyan-700: #0987A0;\n'[39m +
+    [32m'--cyan-800: #086F83;\n'[39m +
+    [32m'--cyan-900: #065666;\n'[39m +
+    [32m'--gray-50: #F7FAFC;\n'[39m +
+    [32m'--gray-100: #EDF2F7;\n'[39m +
+    [32m'--gray-200: #E2E8F0;\n'[39m +
+    [32m'--gray-300: #CBD5E0;\n'[39m +
+    [32m'--gray-400: #A0AEC0;\n'[39m +
+    [32m'--gray-500: #718096;\n'[39m +
+    [32m'--gray-600: #4A5568;\n'[39m +
+    [32m'--gray-700: #2D3748;\n'[39m +
+    [32m'--gray-800: #1A202C;\n'[39m +
+    [32m'--gray-900: #171923;\n'[39m +
+    [32m'--green-50: #F0FFF4;\n'[39m +
+    [32m'--green-100: #C6F6D5;\n'[39m +
+    [32m'--green-200: #9AE6B4;\n'[39m +
+    [32m'--green-300: #68D391;\n'[39m +
+    [32m'--green-400: #48BB78;\n'[39m +
+    [32m'--green-500: #38A169;\n'[39m +
+    [32m'--green-600: #2F855A;\n'[39m +
+    [32m'--green-700: #276749;\n'[39m +
+    [32m'--green-800: #22543D;\n'[39m +
+    [32m'--green-900: #1C4532;\n'[39m +
+    [32m'--orange-50: #FFFAF0;\n'[39m +
+    [32m'--orange-100: #FEEBC8;\n'[39m +
+    [32m'--orange-200: #FBD38D;\n'[39m +
+    [32m'--orange-300: #F6AD55;\n'[39m +
+    [32m'--orange-400: #ED8936;\n'[39m +
+    [32m'--orange-500: #DD6B20;\n'[39m +
+    [32m'--orange-600: #C05621;\n'[39m +
+    [32m'--orange-700: #9C4221;\n'[39m +
+    [32m'--orange-800: #7B341E;\n'[39m +
+    [32m'--orange-900: #652B19;\n'[39m +
+    [32m'--pink-50: #FFF5F7;\n'[39m +
+    [32m'--pink-100: #FED7E2;\n'[39m +
+    [32m'--pink-200: #FBB6CE;\n'[39m +
+    [32m'--pink-300: #F687B3;\n'[39m +
+    [32m'--pink-400: #ED64A6;\n'[39m +
+    [32m'--pink-500: #D53F8C;\n'[39m +
+    [32m'--pink-600: #B83280;\n'[39m +
+    [32m'--pink-700: #97266D;\n'[39m +
+    [32m'--pink-800: #702459;\n'[39m +
+    [32m'--pink-900: #521B41;\n'[39m +
+    [32m'--purple-50: #FAF5FF;\n'[39m +
+    [32m'--purple-100: #E9D8FD;\n'[39m +
+    [32m'--purple-200: #D6BCFA;\n'[39m +
+    [32m'--purple-300: #B794F4;\n'[39m +
+    [32m'--purple-400: #9F7AEA;\n'[39m +
+    [32m'--purple-500: #805AD5;\n'[39m +
+    [32m'--purple-600: #6B46C1;\n'[39m +
+    [32m'--purple-700: #553C9A;\n'[39m +
+    [32m'--purple-800: #44337A;\n'[39m +
+    [32m'--purple-900: #322659;\n'[39m +
+    [32m'--red-50: #FFF5F5;\n'[39m +
+    [32m'--red-100: #FED7D7;\n'[39m +
+    [32m'--red-200: #FEB2B2;\n'[39m +
+    [32m'--red-300: #FC8181;\n'[39m +
+    [32m'--red-400: #F56565;\n'[39m +
+    [32m'--red-500: #E53E3E;\n'[39m +
+    [32m'--red-600: #C53030;\n'[39m +
+    [32m'--red-700: #9B2C2C;\n'[39m +
+    [32m'--red-800: #822727;\n'[39m +
+    [32m'--red-900: #63171B;\n'[39m +
+    [32m'--teal-50: #E6FFFA;\n'[39m +
+    [32m'--teal-100: #B2F5EA;\n'[39m +
+    [32m'--teal-200: #81E6D9;\n'[39m +
+    [32m'--teal-300: #4FD1C5;\n'[39m +
+    [32m'--teal-400: #38B2AC;\n'[39m +
+    [32m'--teal-500: #319795;\n'[39m +
+    [32m'--teal-600: #2C7A7B;\n'[39m +
+    [32m'--teal-700: #285E61;\n'[39m +
+    [32m'--teal-800: #234E52;\n'[39m +
+    [32m'--teal-900: #1D4044;\n'[39m +
+    [32m'--white-alpha-50: rgba(255, 255, 255, 0.04);\n'[39m +
+    [32m'--white-alpha-100: rgba(255, 255, 255, 0.06);\n'[39m +
+    [32m'--white-alpha-200: rgba(255, 255, 255, 0.08);\n'[39m +
+    [32m'--white-alpha-300: rgba(255, 255, 255, 0.16);\n'[39m +
+    [32m'--white-alpha-400: rgba(255, 255, 255, 0.24);\n'[39m +
+    [32m'--white-alpha-500: rgba(255, 255, 255, 0.36);\n'[39m +
+    [32m'--white-alpha-600: rgba(255, 255, 255, 0.48);\n'[39m +
+    [32m'--white-alpha-700: rgba(255, 255, 255, 0.64);\n'[39m +
+    [32m'--white-alpha-800: rgba(255, 255, 255, 0.80);\n'[39m +
+    [32m'--white-alpha-900: rgba(255, 255, 255, 0.92);\n'[39m +
+    [32m'--yellow-50: #FFFFF0;\n'[39m +
+    [32m'--yellow-100: #FEFCBF;\n'[39m +
+    [32m'--yellow-200: #FAF089;\n'[39m +
+    [32m'--yellow-300: #F6E05E;\n'[39m +
+    [32m'--yellow-400: #ECC94B;\n'[39m +
+    [32m'--yellow-500: #D69E2E;\n'[39m +
+    [32m'--yellow-600: #B7791F;\n'[39m +
+    [32m'--yellow-700: #975A16;\n'[39m +
+    [32m'--yellow-800: #744210;\n'[39m +
+    [32m'--yellow-900: #5F370E;\n'[39m +
+    [32m'}'[39m,
+  [32m':root {\n'[39m +
+    [32m'--font-size-12: 0.75rem;\n'[39m +
+    [32m'--font-size-14: 0.875rem;\n'[39m +
+    [32m'--font-size-16: 1rem;\n'[39m +
+    [32m'--font-size-18: 1.125rem;\n'[39m +
+    [32m'--font-size-20: 1.25rem;\n'[39m +
+    [32m'--font-size-24: 1.5rem;\n'[39m +
+    [32m'--font-size-30: 1.875rem;\n'[39m +
+    [32m'--font-size-36: 2.25rem;\n'[39m +
+    [32m'--font-size-48: 3rem;\n'[39m +
+    [32m'--font-size-60: 3.75rem;\n'[39m +
+    [32m'--font-size-72: 4.5rem;\n'[39m +
+    [32m'--font-weight-400: 400;\n'[39m +
+    [32m'--font-weight-500: 500;\n'[39m +
+    [32m'--font-weight-600: 600;\n'[39m +
+    [32m'--font-weight-700: 700;\n'[39m +
+    [32m'--line-height-100: 100%;\n'[39m +
+    [32m'--line-height-120: 120%;\n'[39m +
+    [32m'--line-height-133: 133%;\n'[39m +
+    [32m'--line-height-150: 150%;\n'[39m +
+    [32m'}'[39m
+] [
+  [32m'.heading-4xl {\n'[39m +
+    [32m'font-size: 3.75rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 100%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-3xl {\n'[39m +
+    [32m'font-size: 3rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 100%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-2xl {\n'[39m +
+    [32m'font-size: 2.25rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 120%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-xl {\n'[39m +
+    [32m'font-size: 1.875rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 133%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-lg {\n'[39m +
+    [32m'font-size: 1.5rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 133%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-md {\n'[39m +
+    [32m'font-size: 1.25rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 120%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-sm {\n'[39m +
+    [32m'font-size: 1rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 120%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.heading-xs {\n'[39m +
+    [32m'font-size: 0.875rem;\n'[39m +
+    [32m'font-weight: 700;\n'[39m +
+    [32m'line-height: 120%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-6xl {\n'[39m +
+    [32m'font-size: 3.75rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-5xl {\n'[39m +
+    [32m'font-size: 3rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-4xl {\n'[39m +
+    [32m'font-size: 2.25rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-3xl {\n'[39m +
+    [32m'font-size: 1.875rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-2xl {\n'[39m +
+    [32m'font-size: 1.5rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-xl {\n'[39m +
+    [32m'font-size: 1.25rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-lg {\n'[39m +
+    [32m'font-size: 1.125rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-md {\n'[39m +
+    [32m'font-size: 1rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-sm {\n'[39m +
+    [32m'font-size: 0.875rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}\n'[39m +
+    [32m'.text-xs {\n'[39m +
+    [32m'font-size: 0.75rem;\n'[39m +
+    [32m'font-weight: 400;\n'[39m +
+    [32m'line-height: 150%;\n'[39m +
+    [32m'}'[39m
+]

@@ -20,6 +20,6 @@ export const Default: Story = {
     padding: 20,
     background: "pink",
     boxShadow: "xl",
-    borderRadius: "full",
+    borderRadius: "md",
   },
 };

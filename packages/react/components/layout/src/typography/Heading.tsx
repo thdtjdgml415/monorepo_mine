@@ -1,12 +1,13 @@
-import * as React from "react";
-import { BoxProps } from "./types";
 import { clsx } from "clsx";
+import { textStyle } from "./style.css";
+import { HeadingProps } from "./types";
+import * as React from "react";
 import { StyleSprinkles } from "../core/style.css";
 import { extractSprinkleProps } from "../utils/properties";
 import { vars } from "@front/theme";
 
-const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
-  const { as = "div", color, background, children } = props;
+const Heading = (props: HeadingProps, ref: React.Ref<HTMLHeadingElement>) => {
+  const { as = "h1", children, fontSize, color, background } = props;
 
   return React.createElement(
     as,
@@ -16,9 +17,11 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
         StyleSprinkles(
           extractSprinkleProps(props, Array.from(StyleSprinkles.properties)),
         ),
+        textStyle({
+          fontSize,
+        }),
         props.className,
       ]),
-      ...props,
       style: {
         color: color && vars.colors.$scale?.[color]?.[700],
         background: background && vars.colors.$scale?.[background]?.[100],
@@ -29,6 +32,6 @@ const Box = (props: BoxProps, ref: React.Ref<HTMLElement>) => {
   );
 };
 
-const _Box = React.forwardRef(Box);
+const _Heading = React.forwardRef(Heading);
 
-export { _Box as Box };
+export { _Heading as Heading };
