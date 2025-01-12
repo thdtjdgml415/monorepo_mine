@@ -975,6 +975,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@front/react-components-button@workspace:^, @front/react-components-button@workspace:packages/react/components/button":
+  version: 0.0.0-use.local
+  resolution: "@front/react-components-button@workspace:packages/react/components/button"
+  dependencies:
+    "@front/esbuild-config": "workspace:^"
+    "@front/theme": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/css": "npm:^1.17.0"
+    "@vanilla-extract/dynamic": "npm:^2.1.2"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.0.0"
+    "@vanilla-extract/recipes": "npm:^0.5.5"
+    "@vanilla-extract/sprinkles": "npm:^1.6.3"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    "@front/theme": "workspace:^"
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@front/react-components-layout@workspace:^, @front/react-components-layout@workspace:packages/react/components/layout":
   version: 0.0.0-use.local
   resolution: "@front/react-components-layout@workspace:packages/react/components/layout"
@@ -1003,6 +1027,7 @@ __metadata:
   resolution: "@front/storybook@workspace:services/storybook"
   dependencies:
     "@chromatic-com/storybook": "npm:^3.2.3"
+    "@front/react-components-button": "workspace:^"
     "@front/react-components-layout": "workspace:^"
     "@front/theme": "workspace:^"
     "@storybook/addon-essentials": "npm:^8.4.7"
@@ -2282,6 +2307,15 @@ __metadata:
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
   checksum: 10c0/14f3129bd025245515fe8aac2bfff301610ac60b57a3907a5cf2511e4469cfd719c4a3381be343328a49c7994259bd0ef26cfd7868f78500bf7f063e4b886490
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/dynamic@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@vanilla-extract/dynamic@npm:2.1.2"
+  dependencies:
+    "@vanilla-extract/private": "npm:^1.0.6"
+  checksum: 10c0/7361863bbc1260fda447be80e888e3ad5dea09957651288d7aba81ba7f59594d11476a840c9162adc452f9a43dbc379b58621b5b500a49f537b0efc7737aac9c
   languageName: node
   linkType: hard
 

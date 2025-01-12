@@ -2196,6 +2196,15 @@
         "hash": "10c0/14f3129bd025245515fe8aac2bfff301610ac60b57a3907a5cf2511e4469cfd719c4a3381be343328a49c7994259bd0ef26cfd7868f78500bf7f063e4b886490"
       }
     },
+    "npm:@vanilla-extract/dynamic@2.1.2": {
+      "type": "npm",
+      "name": "npm:@vanilla-extract/dynamic@2.1.2",
+      "data": {
+        "version": "2.1.2",
+        "packageName": "@vanilla-extract/dynamic",
+        "hash": "10c0/7361863bbc1260fda447be80e888e3ad5dea09957651288d7aba81ba7f59594d11476a840c9162adc452f9a43dbc379b58621b5b500a49f537b0efc7737aac9c"
+      }
+    },
     "npm:@vanilla-extract/esbuild-plugin@2.3.13": {
       "type": "npm",
       "name": "npm:@vanilla-extract/esbuild-plugin@2.3.13",
@@ -8796,6 +8805,11 @@
     {
       "source": "npm:@vanilla-extract/css@1.17.0",
       "target": "npm:picocolors@1.1.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:@vanilla-extract/dynamic@2.1.2",
+      "target": "npm:@vanilla-extract/private@1.0.6",
       "type": "static"
     },
     {
