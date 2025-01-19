@@ -6,21 +6,25 @@ import {
   buttonStyle,
   enableColorVariant,
   hoverColorVariant,
+  spanStyle,
+  spinnerStyle,
 } from "./style.css";
 import { vars } from "@front/theme";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
-
+import { useButton } from "@front/react-hooks-button";
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
+  const { buttonProps } = useButton(props);
   const {
     variant = "solid",
     size = "md",
     color = "gray",
-    isDisabled = false,
     children,
     style,
+    rightIcon,
+    leftIcon,
+    isLoading,
   } = props;
-  console.log("vars.colors.$scale[color][500]", vars.colors.$scale[color][500]);
-  const disabled = isDisabled;
+
   const enableColor = vars.colors.$scale[color][500];
   const hoverColor =
     variant === "solid"
@@ -33,7 +37,9 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
 
   return (
     <button
-      {...props}
+      {...buttonProps}
+      role={"button"}
+      data-loading={isLoading}
       ref={ref}
       className={clsx([
         buttonStyle({
@@ -41,7 +47,6 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
           variant,
         }),
       ])}
-      disabled={disabled}
       style={{
         ...assignInlineVars({
           [enableColorVariant]: enableColor,
@@ -51,7 +56,10 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
         ...style,
       }}
     >
-      {children}
+      {isLoading && <div className={spinnerStyle({ size })} />}
+      {leftIcon && <span className={spanStyle({ size })}>{leftIcon}</span>}
+      <span>{children}</span>
+      {rightIcon && <span className={spanStyle({ size })}>{rightIcon}</span>}
     </button>
   );
 };

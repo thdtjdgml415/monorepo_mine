@@ -5,6 +5,7 @@
     "@chromatic-com/storybook": "^3.2.3",
     "@front/react-components-button": "workspace:^",
     "@front/react-components-layout": "workspace:^",
+    "@front/react-hooks-button": "workspace:^",
     "@front/theme": "workspace:^",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",

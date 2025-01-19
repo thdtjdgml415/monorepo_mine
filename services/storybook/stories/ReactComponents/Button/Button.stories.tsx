@@ -2,6 +2,9 @@ import { Button as _Button } from "@front/react-components-button";
 import { Meta, StoryObj } from "@storybook/react";
 import "@front/react-components-button/style.css";
 import { vars } from "@front/theme";
+import { Text } from "@front/react-components-layout";
+import { useButton, useToggleButton } from "@front/react-hooks-button";
+import React from "react";
 
 const meta: Meta<typeof _Button> = {
   title: "React Components/Button/button",
@@ -23,6 +26,26 @@ const meta: Meta<typeof _Button> = {
       control: "select",
     },
   },
+  decorators: [
+    (Story) => {
+      const methods = useButton({
+        elementType: "div",
+        onClick: () => {
+          console.log("tttt");
+        },
+      });
+      return <Story args={methods} />;
+    },
+    // (Story) => {
+    //   const methods = useToggleButton({
+    //     elementType: "div",
+    //     onClick: () => {
+    //       console.log("tttt");
+    //     },
+    //   });
+    //   return <Story formMethod={methods} />;
+    // },
+  ],
   tags: ["autodocs"],
 } satisfies Meta<typeof _Button>;
 
@@ -35,6 +58,54 @@ export const ButtonStory: Story = {
     children: "Button",
     variant: "outline",
     isDisabled: false,
-    color: "red",
+    color: "gray",
+    leftIcon: "🤫",
+    rightIcon: "🫥",
+    isLoading: false,
+  },
+};
+
+export const TextButtonStory: Story = {
+  render: () => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const { buttonProps } = useButton({
+      elementType: "div",
+      onClick: () => {
+        console.log("tttt");
+      },
+    });
+    return (
+      <Text
+        {...buttonProps}
+        as="div"
+        fontSize={"md"}
+        color="green"
+        style={{ userSelect: "none", cursor: "pointer" }}
+      >
+        텍스트 버튼 입니다.
+      </Text>
+    );
+  },
+};
+
+export const ToggleButtonStory: Story = {
+  render: () => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const { buttonProps, isSelected } = useToggleButton(
+      {
+        elementType: "div",
+      },
+      false,
+    );
+
+    return (
+      <_Button
+        {...buttonProps}
+        variant={isSelected ? "solid" : "outline"}
+        color="green"
+      >
+        {isSelected ? "선택" : "선택안함"}
+      </_Button>
+    );
   },
 };

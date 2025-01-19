@@ -980,6 +980,8 @@ __metadata:
   resolution: "@front/react-components-button@workspace:packages/react/components/button"
   dependencies:
     "@front/esbuild-config": "workspace:^"
+    "@front/react-hooks-button": "workspace:^"
+    "@front/react-hooks-toggle": "workspace:^"
     "@front/theme": "workspace:^"
     "@types/react": "npm:^18.2.48"
     "@types/react-dom": "npm:^18.2.18"
@@ -1022,6 +1024,41 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@front/react-hooks-button@workspace:^, @front/react-hooks-button@workspace:packages/react/hooks/button":
+  version: 0.0.0-use.local
+  resolution: "@front/react-hooks-button@workspace:packages/react/hooks/button"
+  dependencies:
+    "@front/esbuild-config": "workspace:^"
+    "@front/react-hooks-toggle": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  languageName: unknown
+  linkType: soft
+
+"@front/react-hooks-toggle@workspace:^, @front/react-hooks-toggle@workspace:packages/react/hooks/toggle":
+  version: 0.0.0-use.local
+  resolution: "@front/react-hooks-toggle@workspace:packages/react/hooks/toggle"
+  dependencies:
+    "@front/esbuild-config": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@front/storybook@workspace:services/storybook":
   version: 0.0.0-use.local
   resolution: "@front/storybook@workspace:services/storybook"
@@ -1029,6 +1066,7 @@ __metadata:
     "@chromatic-com/storybook": "npm:^3.2.3"
     "@front/react-components-button": "workspace:^"
     "@front/react-components-layout": "workspace:^"
+    "@front/react-hooks-button": "workspace:^"
     "@front/theme": "workspace:^"
     "@storybook/addon-essentials": "npm:^8.4.7"
     "@storybook/addon-interactions": "npm:^8.4.7"
