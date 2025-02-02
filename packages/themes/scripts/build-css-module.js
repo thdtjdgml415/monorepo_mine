@@ -110,7 +110,7 @@ const generateThemeCssClasses = () => {
 const generateThemeCss = () => {
   const variables = generateThemeCssVariables();
   const classes = generateThemeCssClasses();
-  console.log("cssClasses", variables, classes);
+
   fs.writeFileSync("dist/themes.css", [...variables, ...classes].join("\n"));
 };
 

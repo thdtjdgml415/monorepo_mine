@@ -1,20 +1,25 @@
-export { Box } from "./layout";
-export type { BoxProps } from "./layout";
+export type {
+  BoxProps,
+  GridItemProps,
+  GridProps,
+  FlexProps,
+  DividerProps,
+  ListProps,
+  ListItemProps,
+  OrderListProps,
+  UnorderedListProps,
+} from "./layout";
+export {
+  Flex,
+  Divider,
+  Grid,
+  GridItem,
+  Box,
+  List,
+  ListItem,
+  OrderedList,
+  UnorderedList,
+} from "./layout";
 
-export { Text } from "./typography";
-export type { TextProps } from "./typography";
-
-export { Heading } from "./typography";
-export type { HeadingProps } from "./typography";
-
-export { Divider } from "./layout";
-export type { DividerProps } from "./layout";
-
-export { Flex } from "./layout";
-export type { FlexProps } from "./layout";
-
-export { Grid } from "./layout";
-export type { GridProps } from "./layout";
-
-export { GridItem } from "./layout";
-export type { GridItemProps } from "./layout";
+export type { TextProps, HeadingProps } from "./typography";
+export { Text, Heading } from "./typography";

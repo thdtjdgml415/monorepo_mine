@@ -1,9 +1,9 @@
 import { Button as _Button } from "@front/react-components-button";
-import { Meta, StoryObj } from "@storybook/react";
 import "@front/react-components-button/style.css";
-import { vars } from "@front/theme";
 import { Text } from "@front/react-components-layout";
 import { useButton, useToggleButton } from "@front/react-hooks-button";
+import { vars } from "@front/theme";
+import { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 
 const meta: Meta<typeof _Button> = {

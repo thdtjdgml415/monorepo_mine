@@ -25,6 +25,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@front/react-components-accordion": "workspace:^",
     "react": "^18.2.0",
     "react-confetti": "^6.2.2",
     "react-dom": "^18.2.0"

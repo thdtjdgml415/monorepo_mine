@@ -1,6 +1,7 @@
 import { vars } from "@front/theme";
 import { AsElementProps, StyleProps } from "../core/types";
 import { CSSProperties } from "react";
+import { TextProps } from "../typography";
 
 export type BoxProps = AsElementProps & StyleProps;
 
@@ -49,3 +50,16 @@ export type GridItemProps = {
   rowEnd?: CSSProperties["gridRowEnd"];
   rowStart?: CSSProperties["gridRowStart"];
 } & BoxProps;
+
+export type ListProps = {
+  variant?: "ordered" | "unordered";
+  spaceing: keyof typeof vars.box.spacing;
+} & BoxProps;
+
+export type OrderListProps = Omit<ListProps, "variant">;
+
+export type ListItemProps = TextProps;
+
+export type UnorderedListProps = OrderListProps & {
+  listStyleType?: CSSProperties["listStyleType"];
+};
