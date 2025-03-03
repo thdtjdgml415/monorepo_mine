@@ -13,7 +13,7 @@ import React from "react";
 
 const meta: Meta<typeof _Accordion> = {
   title: "React Components/Accordion",
-  component: _Accordion,
+
   parameters: {
     layout: "centered",
   },

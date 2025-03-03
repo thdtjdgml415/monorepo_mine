@@ -1,12 +1,14 @@
 import { useToggle } from "@front/react-hooks-toggle";
-import { useButton } from "./useButton";
 import { OverloadedToggleButtonFunction } from "./types";
+import { useButton } from "./useButton";
 
-export const useToggleButton = (
+export const useToggleButton: OverloadedToggleButtonFunction = (
   props: any,
   isSelected?: boolean,
-): OverloadedToggleButtonFunction => {
-  const { isSelected: _isSelected, toggle } = useToggle({ isSelected });
+): any => {
+  const { isSelected: _isSelected, toggle } = useToggle({
+    isSelected,
+  });
 
   const handleClick = (event: React.MouseEvent) => {
     toggle();
@@ -17,5 +19,9 @@ export const useToggleButton = (
     ...props,
     onClick: handleClick,
   });
-  return { buttonProps, isSelected: _isSelected };
+
+  return {
+    buttonProps,
+    isSelected: _isSelected,
+  };
 };

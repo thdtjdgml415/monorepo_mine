@@ -1027,6 +1027,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@front/react-components-input@workspace:^, @front/react-components-input@workspace:packages/react/components/input":
+  version: 0.0.0-use.local
+  resolution: "@front/react-components-input@workspace:packages/react/components/input"
+  dependencies:
+    "@front/esbuild-config": "workspace:^"
+    "@front/react-hooks-input": "workspace:^"
+    "@front/theme": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    "@vanilla-extract/css": "npm:^1.17.0"
+    "@vanilla-extract/dynamic": "npm:^2.1.2"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.0.0"
+    "@vanilla-extract/recipes": "npm:^0.5.5"
+    "@vanilla-extract/sprinkles": "npm:^1.6.3"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    "@front/theme": "workspace:^"
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@front/react-components-layout@workspace:^, @front/react-components-layout@workspace:packages/react/components/layout":
   version: 0.0.0-use.local
   resolution: "@front/react-components-layout@workspace:packages/react/components/layout"
@@ -1068,6 +1093,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@front/react-hooks-input@workspace:^, @front/react-hooks-input@workspace:packages/react/hooks/input":
+  version: 0.0.0-use.local
+  resolution: "@front/react-hooks-input@workspace:packages/react/hooks/input"
+  dependencies:
+    "@front/esbuild-config": "workspace:^"
+    "@front/react-hooks-toggle": "workspace:^"
+    "@types/react": "npm:^18.2.48"
+    "@types/react-dom": "npm:^18.2.18"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    react: ">=18.2.0"
+    react-dom: ">=18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@front/react-hooks-toggle@workspace:^, @front/react-hooks-toggle@workspace:packages/react/hooks/toggle":
   version: 0.0.0-use.local
   resolution: "@front/react-hooks-toggle@workspace:packages/react/hooks/toggle"
@@ -1092,8 +1135,10 @@ __metadata:
     "@chromatic-com/storybook": "npm:^3.2.3"
     "@front/react-components-accordion": "workspace:^"
     "@front/react-components-button": "workspace:^"
+    "@front/react-components-input": "workspace:^"
     "@front/react-components-layout": "workspace:^"
     "@front/react-hooks-button": "workspace:^"
+    "@front/react-hooks-input": "workspace:^"
     "@front/theme": "workspace:^"
     "@storybook/addon-essentials": "npm:^8.4.7"
     "@storybook/addon-interactions": "npm:^8.4.7"

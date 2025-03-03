@@ -1,6 +1,8 @@
-import * as React from "react";
-import { ButtonProps } from "./types";
+import { useButton } from "@front/react-hooks-button";
+import { vars } from "@front/theme";
+import { assignInlineVars } from "@vanilla-extract/dynamic";
 import { clsx } from "clsx";
+import * as React from "react";
 import {
   activeColorVariant,
   buttonStyle,
@@ -9,9 +11,8 @@ import {
   spanStyle,
   spinnerStyle,
 } from "./style.css";
-import { vars } from "@front/theme";
-import { assignInlineVars } from "@vanilla-extract/dynamic";
-import { useButton } from "@front/react-hooks-button";
+import { ButtonProps } from "./types";
+
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
   const { buttonProps } = useButton(props);
   const {

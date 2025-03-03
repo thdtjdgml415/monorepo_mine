@@ -36,15 +36,6 @@ const meta: Meta<typeof _Button> = {
       });
       return <Story args={methods} />;
     },
-    // (Story) => {
-    //   const methods = useToggleButton({
-    //     elementType: "div",
-    //     onClick: () => {
-    //       console.log("tttt");
-    //     },
-    //   });
-    //   return <Story formMethod={methods} />;
-    // },
   ],
   tags: ["autodocs"],
 } satisfies Meta<typeof _Button>;
@@ -104,7 +95,7 @@ export const ToggleButtonStory: Story = {
         variant={isSelected ? "solid" : "outline"}
         color="green"
       >
-        {isSelected ? "선택" : "선택안함"}
+        {isSelected ? "😀" : "😂"}
       </_Button>
     );
   },

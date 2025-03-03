@@ -1,6 +1,6 @@
 import "@front/theme/themes.css";
 import "./style.css";
-
+import { withThemeByClassName } from "@storybook/addon-themes";
 /**
  * 다크모드 적용이 안됨
  */
@@ -14,41 +14,23 @@ const preview = {
         date: /Date$/i,
       },
     },
-  },
-
-  rootAttributes: {
-    root: "body",
-    attribute: "class",
-    defaultState: {
-      name: "light",
-      value: "theme-light",
+    themes: {
+      default: "light",
+      list: [
+        { name: "light", class: "theme-light", color: "#ffffff" },
+        { name: "dark", class: "theme-dark", color: "#000000" },
+      ],
     },
-    states: [
-      {
-        name: "dark",
-        value: "theme-dark",
-      },
-    ],
   },
+  decorators: [
+    withThemeByClassName({
+      themes: {
+        light: "theme-light",
+        dark: "theme-dark",
+      },
+      defaultTheme: "light",
+    }),
+  ],
 };
-
-const initTheme = () => {
-  const isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  console.log("body class", document.body.classList);
-  if (isDarkTheme) {
-    document.body.classList.add("theme-dark");
-  }
-
-  const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
-
-  mediaQueryList.addEventListener("change", (e) => {
-    if (e.matches) {
-      document.body.classList.add("theme-dark");
-    } else {
-      document.body.classList.remove("theme-dark");
-    }
-  });
-};
-initTheme();
 
 export default preview;
