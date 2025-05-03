@@ -1,15 +1,16 @@
-import { vars } from "@front/theme";
-import { assignInlineVars } from "@vanilla-extract/dynamic";
-import * as clsx from "clsx";
 import * as React from "react";
+import { InputProps } from "./types";
+import { useInput } from "@front/react-hooks-input";
+
+import { clsx } from "clsx";
+import { assignInlineVars } from "@vanilla-extract/dynamic";
 import {
   colorVariant,
   errorBorderColorVariant,
   focusBorderColorVariant,
   inputStyle,
 } from "./style.css";
-import { InputProps } from "./types";
-import { useInput } from "@front/react-hooks-input";
+import { vars } from "@front/theme";
 
 const Input = (props: InputProps, ref: React.Ref<HTMLInputElement>) => {
   const {
@@ -22,10 +23,13 @@ const Input = (props: InputProps, ref: React.Ref<HTMLInputElement>) => {
     style,
     ...rest
   } = props;
+
   const { inputProps } = useInput(rest);
+
   return (
     <input
       {...inputProps}
+      ref={ref}
       className={clsx([
         inputStyle({
           size,
@@ -41,13 +45,12 @@ const Input = (props: InputProps, ref: React.Ref<HTMLInputElement>) => {
         }),
         ...style,
       }}
-      {...rest}
-      ref={ref}
-      type="text"
     />
   );
 };
 
 const _Input = React.forwardRef(Input);
+
+_Input.displayName = "Input";
 
 export { _Input as Input };

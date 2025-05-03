@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { UseInputProps, UseInputResult } from "./types";
 
-export const useInput = (props: UseInputProps): UseInputResult => {
+const useInput = (props: UseInputProps): UseInputResult => {
   const {
     isReadOnly = false,
     isDisabled = false,
@@ -44,3 +44,5 @@ export const useInput = (props: UseInputProps): UseInputResult => {
     valueCount: currentValue.toString().length,
   };
 };
+
+export { useInput };

@@ -1,5 +1,5 @@
 import { useButton } from "@front/react-hooks-button";
-import * as clsx from "clsx";
+import { clsx } from "clsx";
 import { useCallback } from "react";
 import { useAcordionContext } from "./AccordionContext";
 import { accordionButtonStyle } from "./style.css";

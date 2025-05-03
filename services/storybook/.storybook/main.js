@@ -22,12 +22,12 @@ const config = {
     getAbsolutePath("storybook-addon-root-attributes"),
     getAbsolutePath("@storybook/addon-themes"),
   ],
-  framework: {
-    name: getAbsolutePath("@storybook/react-vite"),
-    options: {},
-  },
+
   docs: {
     autodocs: "tag",
+  },
+  core: {
+    builder: "@storybook/builder-vite",
   },
 };
 export default config;

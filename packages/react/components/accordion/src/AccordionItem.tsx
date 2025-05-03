@@ -1,6 +1,6 @@
 import * as React from "react";
 import { AccordionItemType } from "./type";
-import * as clsx from "clsx";
+import { clsx } from "clsx";
 import { accordionItemStyle } from "./style.css";
 
 const AccordionItem = (

@@ -1,5 +1,5 @@
 import { recipe } from "@vanilla-extract/recipes";
-import {} from "@vanilla-extract/dynamic";
+
 import { vars } from "@front/theme";
 import { createVar, style } from "@vanilla-extract/css";
 

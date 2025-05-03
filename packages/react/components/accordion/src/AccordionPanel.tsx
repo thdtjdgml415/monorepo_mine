@@ -1,9 +1,10 @@
-import * as clsx from "clsx";
+import { clsx } from "clsx";
 import { AccordionPanelProps } from "./type";
 import { accordionPanelStyle, panelHeight } from "./style.css";
 import { useAcordionContext } from "./AccordionContext";
 import { useEffect, useRef, useState } from "react";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
+import React from "react";
 
 const AccordionPanel = (
   props: AccordionPanelProps,
@@ -44,6 +45,5 @@ const AccordionPanel = (
   );
 };
 
-const _AccordionPanel = AccordionPanel;
-
+const _AccordionPanel = React.forwardRef(AccordionPanel);
 export { _AccordionPanel as AccordionPanel };

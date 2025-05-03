@@ -1,5 +1,4 @@
 import {
-  Accordion as _Accordion,
   Accordion,
   AccordionButton,
   AccordionItem,
@@ -10,16 +9,6 @@ import "@front/react-components-accordion/style.css";
 import { Heading, Text } from "@front/react-components-layout";
 import "@front/react-components-layout/style.css";
 import React from "react";
-
-const meta: Meta<typeof _Accordion> = {
-  title: "React Components/Accordion",
-
-  parameters: {
-    layout: "centered",
-  },
-} satisfies Meta<typeof _Accordion>;
-
-export default meta;
 
 type Story = StoryObj<typeof meta>;
 
@@ -57,3 +46,20 @@ export const DefaultAccordion: Story = {
     );
   },
 };
+
+const meta: Meta<typeof Accordion> = {
+  title: "React Components/Accordion",
+  component: DefaultAccordion,
+  decorators: [
+    (Story) => (
+      <div>
+        <Story />
+      </div>
+    ),
+  ],
+  parameters: {
+    layout: "centered",
+  },
+} satisfies Meta<typeof Accordion>;
+
+export default meta;
