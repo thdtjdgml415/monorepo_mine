@@ -49,7 +49,7 @@ export const DefaultAccordion: Story = {
 
 const meta: Meta<typeof Accordion> = {
   title: "React Components/Accordion",
-  component: DefaultAccordion,
+  component: Accordion,
   decorators: [
     (Story) => (
       <div>
